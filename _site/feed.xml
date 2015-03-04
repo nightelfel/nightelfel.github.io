@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BigBoat</title>
+    <description>船嘛，到处飘来飘去呗~
+</description>
+    <link>http://nightelfel.github.io/</link>
+    <atom:link href="http://nightelfel.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 03 Mar 2015 23:01:52 -0500</pubDate>
+    <lastBuildDate>Tue, 03 Mar 2015 23:01:52 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>第一篇</title>
+        <description>&lt;p&gt;两个月的奋战暂时就结束了。第一轮的期中考试也已经结束了。放假在家，感觉有一堆东西需要去做但是却没有做事情的动力。&lt;/p&gt;
+
+&lt;p&gt;想起了以前看过的&lt;code&gt;且听风吟&lt;/code&gt;，虽然我已经大体上忘记了具体的内容，但总感觉这题目和我现在的状态真的很像啊。我还记得小说的篇幅太短了，把书的序章也看了一遍。“当时我是每天晚上吃完晚饭，喝一瓶啤酒，一边写一点，没有灵感就去睡觉去了，没想到最后得了奖。”，恩，好像是这么说的。&lt;/p&gt;
+
+&lt;p&gt;慢慢的对事物也缺少了最基本的好奇。看了柴女士的演讲，又看了一眼网上的评论。我心里竟然产生了一点点久违的感觉，那感觉是好是坏我这里不说，因为他人怎么说是他们的自由，我的想法留在自己心里就好了。&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Mar 2015 17:41:25 -0500</pubDate>
+        <link>http://nightelfel.github.io/jekyll/update/2015/03/03/%E7%AC%AC%E4%B8%80%E7%AF%87.html</link>
+        <guid isPermaLink="true">http://nightelfel.github.io/jekyll/update/2015/03/03/%E7%AC%AC%E4%B8%80%E7%AF%87.html</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

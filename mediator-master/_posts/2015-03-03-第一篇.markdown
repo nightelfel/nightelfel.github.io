@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "第一篇"
+date:   2015-03-03 22:41:25
+categories: jekyll update
+tags: featured
+image: /assets/images/computer.jpg
+---
+两个月的奋战暂时就结束了。第一轮的期中考试也已经结束了。放假在家，感觉有一堆东西需要去做但是却没有做事情的动力。
+
+想起了以前看过的`且听风吟`，虽然我已经大体上忘记了具体的内容，但总感觉这题目和我现在的状态真的很像啊。我还记得小说的篇幅太短了，把书的序章也看了一遍。“当时我是每天晚上吃完晚饭，喝一瓶啤酒，一边写一点，没有灵感就去睡觉去了，没想到最后得了奖。”，恩，好像是这么说的。
+
+慢慢的对事物也缺少了最基本的好奇。看了柴女士的演讲，又看了一眼网上的评论。我心里竟然产生了一点点久违的感觉，那感觉是好是坏我这里不说，因为他人怎么说是他们的自由，我的想法留在自己心里就好了。
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
