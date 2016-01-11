@@ -46,15 +46,15 @@ function loadSchedule(data) {
     var schedule = $(window.template.schedule({data: data}));
     schedule.data = data;
 
-    schedule.find('.add').on('touchstart', function () {
+    schedule.find('.add').on('touchend', function () {
         schedule.find('#addSchedule').show();
     });
 
-    schedule.find('.closeSchedule').on('touchstart', function () {
+    schedule.find('.closeSchedule').on('touchend', function () {
         schedule.find('#addSchedule').hide();
     });
 
-    schedule.find('.matchrow').on('touchstart', function () {
+    schedule.find('.matchrow').on('touchend', function () {
         $('.matchrow').removeClass('w3-teal');
         $(this).addClass('w3-teal');
         var id = $(this).attr("matchId");
@@ -70,7 +70,7 @@ function loadSchedule(data) {
             match:match,
             members:members
         }));
-        detail.find('.closeDetail').on('touchstart', function () {
+        detail.find('.closeDetail').on('touchend', function () {
             detail.remove();
         });
         schedule.append(detail);
