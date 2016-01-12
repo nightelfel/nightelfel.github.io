@@ -37,9 +37,9 @@ function main() {
             }
         ]
     };
-    var schedule = loadSchedule(data);
+    var login = loadLogin();
 
-    content.append(schedule);
+    content.append(login);
 }
 
 function loadSchedule(data) {
@@ -78,5 +78,10 @@ function loadSchedule(data) {
     });
 
     return (schedule);
+}
+
+function loadLogin() {
+    var login = $(window.template.login());
+    return(login);
 }
 

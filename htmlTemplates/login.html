@@ -1,0 +1,46 @@
+<div data-role="page" id="main">
+    <div data-role="header" data-position="fixed">
+        <h1>登陆!</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <label for="username">用户名:</label>
+        <input type="text" name="username" id="username">
+        <label for="password">密码:</label>
+        <input type="text" name="password" id="password">
+        <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
+            <a class="ui-btn ui-btn-inline ui-mini">确认</a>
+            <a href="#register" data-transition="slide" class="ui-btn ui-btn-inline ui-mini">注册</a>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="register">
+    <div data-role="header" data-position="fixed">
+        <h1>注册</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+        <label for="username">用户名:</label>
+        <input type="text" name="username" id="name">
+        <label for="password">密码:</label>
+        <input type="text" name="password" id="word">
+        <label for="realname">真实姓名:</label>
+        <input type="text" name="realname" id="realname">
+        <label for="phone">用户电话:</label>
+        <input type="text" name="phone" id="phone">
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+        <label for="age">年龄:</label>
+        <input type="text" name="age" id="age">
+        <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
+            <a href="#registerSucc" data-position-to="window" data-rel="popup" class="ui-btn ui-btn-inline ui-mini">确认</a>
+        </div>
+    </div>
+
+    <div data-role="popup" id="registerSucc" class="ui-grid-a">
+        <div class="ui-content">注册成功!</div>
+        <div data-role="controlgroup" style="text-align:center">
+            <a href="#main" data-transition="slide" class="ui-btn ui-btn-inline ui-mini">返回</a>
+        </div>
+    </div>
+</div>
