@@ -14,15 +14,15 @@ LogIn.prototype = {
         var that = this;
         var log = that.page.siblings('#page-logIn');
         var buttons = log.find('a');
-        $(buttons[0]).on('tab', function () {
+        $(buttons[0]).on('touchend', function () {
             var inputs = log.find('input');
             var username = $(inputs[0]).val();
             var password = $(inputs[1]).val();
             var data = {};
             data.username = username;
             data.password = password;
-            that.page.remove();
-            console.log(data);
+            alert(data.username);
+            //that.page.remove();
         });
     }
 };
