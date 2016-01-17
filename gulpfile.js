@@ -1,17 +1,20 @@
+/**
+ * Created by David on 2016-01-16.
+ */
 var gulp = require('gulp');
 var template = require('gulp-template-compile');
 var concat = require('gulp-concat');
 
 gulp.task('default', function () {
-    gulp.src('htmlTemplates/*.html')
+    gulp.src('templates/*.html')
         .pipe(template({
-            name: function (file) {
-                var temp = file.relative;
-                temp = temp.substring(0, temp.length-5);
-                return temp;
+            name : function (file) {
+                var name = file.relative;
+                name = name.substring(0, name.length-5);
+                return(name);
             },
-            namespace: "template",
+            namespace : 'template'
         }))
-        .pipe(concat('templates.js'))
+        .pipe(concat('template.js'))
         .pipe(gulp.dest('js/'));
-})
+});
